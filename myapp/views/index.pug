@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  - var url = '/users';
+  button(
+    id='movePage'
+    onclick='location.href=\''+url+'\''
+    ) button
