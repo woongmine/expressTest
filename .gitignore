@@ -1,2 +1,2 @@
-./myapp/node_modules/*
-./myapp/maria-db.js
+/myapp/node_modules/*
+/myapp/maria-db.js
